@@ -1,4 +1,10 @@
 
+##
+mkdir c:/WEB-INF
+cd WEB-INF
+xcopy D:/key.txt C:/WEB-INF
+jar uvf app.war /WEB-INF/key.txt
+
 String originalInput = "test input";
 String encodedString = Base64.getEncoder().encodeToString(originalInput.getBytes());
 Note how we retrieve the full Encoder API via the simple getEncoder() utility method.
