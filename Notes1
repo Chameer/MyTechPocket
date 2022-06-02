@@ -1,0 +1,1 @@
+You can pass the baseUrl as parameter to template. Then: <a th:href="${baseUrl + '/my/uri?maybe=' + someParam}". Hope that helps.
